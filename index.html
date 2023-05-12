@@ -3,17 +3,30 @@
 <head>
     <title>WEB1 - Welcome</title>
     <meta charset="utf-8">
+    <link rel="stylesheet" href="style.css">
+    <script src="colors.js">
+    </script>
 </head>
 
 <body>
-    <h1><a href="index.html"><font color="red">WEB</font></a></h1>
-    <ol>
-        <li><a href="1.html"><font color="red">HTML</font></a></li> 
-        <li><a href="2.html"><font color="red">CSS</font></a></li>
-        <li><a href="3.html"><font color="red">JavaScript</font></a></li>
-    </ol>
-
-    <h2>WEB</h2>
-    <p>월드 와이드 웹</p>
+    <div>
+        <h1><a href="index.html"><font color="red">WEB</font></a></h1>
+        <input type="button" value="night" onclick="
+        nightDayHandler(this);
+        ">
+        <ol>
+            <li><a href="1.html"><font color="red">HTML</font></a></li> 
+            <li><a href="2.html"><font color="red">CSS</font></a></li>
+            <li><a href="3.html"><font color="red">JavaScript</font></a></li>
+        </ol>
+        <div id="article">
+            <h2>WEB</h2>
+            <p>The web, also known as the World Wide Web (WWW), is an information system 
+            that is accessed via the internet. The web consists of a vast network of documents, 
+            images, and other resources that are linked together by hyperlinks. Users can 
+            access these resources by using a web browser, such as Google Chrome or Mozilla 
+            Firefox.</p>
+        </div>
+    </div>
 </body>
 </html>

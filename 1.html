@@ -3,19 +3,31 @@
 <head>
     <title>WEB1 - HTML</title>
     <meta charset="utf-8">
+    <link rel="stylesheet" href="style.css">
+    <script src="colors.js">
+    </script>
 </head>
 
 <body>
     <h1><a href="index.html"><font color="red">WEB</font></a></h1>
-    <ol>
-        <li><a href="1.html"><font color="red">HTML</font></a></li> 
-        <li><a href="2.html"><font color="red">CSS</font></a></li>
-        <li><a href="3.html"><font color="red">JavaScript</font></a></li>
-    </ol>
-
-    <h2>HTML</h2>
-    <img src="coding.jpg" width="100%">
-    <p>인터넷 서비스의 하나인 월드 와이드 웹을 통해 볼 수 있는</p> 
-    <p style="margin-top:40px;"><strong><u>문서를</u> 만들 때</strong> 사용하는 웹 언어의 한 종류이다.</p>
+    <input type="button" value="night" onclick="
+    nightDayHandler(this);
+    ">
+    <div>
+        <ol>
+            <li><a href="1.html"><font color="red">HTML</font></a></li> 
+            <li><a href="2.html"><font color="red">CSS</font></a></li>
+            <li><a href="3.html"><font color="red">JavaScript</font></a></li>
+        </ol>
+        <div id="article">
+            <h2>HTML</h2>
+            <p>HTML stands for HyperText Markup Language. It is the standard markup 
+                language for creating web pages. HTML describes the structure of 
+                a web page by using tags and attributes. Tags are used to identify 
+                different parts of a web page, such as headings, paragraphs, and images. 
+                Attributes are used to provide additional information about a tag, 
+                such as the size of an image or the color of a heading.</p> 
+        </div>
+    </div>
 </body>
 </html>

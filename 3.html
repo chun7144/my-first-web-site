@@ -3,17 +3,29 @@
 <head>
     <title>WEB1 - JavaScript</title>
     <meta charset="utf-8">
+    <link rel="stylesheet" href="style.css">
+    <script src="colors.js">
+    </script>
 </head>
 
 <body>
-    <h1><a href="index.html"><font color="red">WEB</font></a></h1>
-    <ol>
-        <li><a href="1.html"><font color="red">HTML</font></a></li> 
-        <li><a href="2.html"><font color="red">CSS</font></a></li>
-        <li><a href="3.html"><font color="red">JavaScript</font></a></li>
-    </ol>
-
-    <h2>JavaScript</h2>
-    <p>웹문서의 동적 제어</p> 
+    <div>
+        <h1><a href="index.html"><font color="red">WEB</font></a></h1>
+        <input type="button" value="night" onclick="
+            nightDayHandler(this);
+        ">
+        <ol>
+            <li><a href="1.html">HTML</a></li> 
+            <li><a href="2.html">CSS</a></li>
+            <li><a href="3.html">JavaScript</a></li>
+        </ol>
+        <div id="article">
+            <h2>JavaScript</h2>
+            <p>JavaScript, also known as JS, is a programming language that adds 
+                interactivity to web pages. It is one of the three core technologies 
+                of the World Wide Web, along with HTML and CSS. JavaScript is used 
+                to make web pages more dynamic and interactive, by adding features 
+                such as animations, forms, and games.</p> 
+        </div>
 </body>
 </html>
